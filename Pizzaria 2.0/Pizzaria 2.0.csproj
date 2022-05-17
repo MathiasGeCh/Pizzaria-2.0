@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Pizzaria_2._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="274160769_311810220927361_9001403539438388123_n.jpg" />
+    <None Remove="Pizza-med-skinke-ost-og-tomat-scaled.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="ServiceStack.Text" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Modeller\Pictures\274160769_311810220927361_9001403539438388123_n.jpg" />
+    <Resource Include="Modeller\Pictures\Pizza-med-skinke-ost-og-tomat-scaled.jpg" />
+  </ItemGroup>
+
+</Project>
